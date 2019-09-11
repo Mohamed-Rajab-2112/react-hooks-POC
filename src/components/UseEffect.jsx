@@ -15,7 +15,7 @@ const UseEffect = () => {
         console.log('should update in specific case');
     }, [counter]);
 
-    // component did mount
+    // component did mount + component will unmount
     useEffect(() => {
         console.log('did mount');
         return () => {
